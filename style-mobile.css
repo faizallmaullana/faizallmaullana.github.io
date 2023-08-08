@@ -3,6 +3,7 @@
         width: 100%;
         box-shadow: none;
         padding: 1em;
+        height: auto;
     }
 
     .header {
