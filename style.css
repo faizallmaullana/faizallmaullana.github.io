@@ -7,6 +7,15 @@ body{
     background-color: rgb(143, 143, 143);
 }
 
+h1{
+    font-size: 1.3em;
+}
+
+h2{
+    font-size: 1em;
+    margin: 0 0 -1em 0;
+}
+
 .container{
     padding: 3em;
     width: 65%;
@@ -34,11 +43,29 @@ body{
 
 .header h2{
     margin: -1em 0 0 0;
-    font-size: 0.7em;
+    font-size: 1em;
 }
 
 .header a{
     text-decoration: none;
     color: black;
-    font-size: 0.7em;
+    font-size: 1em;
+}
+
+.list-education{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.list-education h2{
+    margin: 1em 0 -0.5em 0;
+}
+
+.education-information {
+    margin: 0 0 0 1em;
+}
+
+.date{
+    width: 20%;
 }
